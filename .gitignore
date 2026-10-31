@@ -1,0 +1,17 @@
+# Credentials, including nested tool env files and local variants.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Machine-local agent settings can contain workshop paths or account details.
+.claude/settings.local.json
+.claude/settings.json
+.codex/
+projects.local.json
+
+# Operating-system metadata.
+.DS_Store
+Thumbs.db
+Desktop.ini

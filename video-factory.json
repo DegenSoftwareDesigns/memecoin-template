@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "root": ".",
+  "env": ".env",
+  "references": [],
+  "context": {
+    "brand_guide": "Branding and references/brand-guidelines.md"
+  },
+  "records": {
+    "api_usage": "api-usage.csv"
+  },
+  "layout": {
+    "default": "Videos/{production}",
+    "final": "Videos/{production}/final"
+  },
+  "deliverables": {
+    "final": {
+      "items": [
+        { "id": "video", "role": "final", "glob": "*.mp4", "min": 1 }
+      ]
+    }
+  }
+}
